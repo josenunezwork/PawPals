@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/photoGalleryFragment">
+
+    <fragment
+        android:id="@+id/photoGalleryFragment"
+        android:name="com.bignerdranch.android.animalgallery.AnimalGalleryFragment"
+        android:label="PhotoGalleryFragment" >
+        <action
+            android:id="@+id/show_animal"
+            app:destination="@id/animalPageFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/animalPageFragment"
+        android:name="com.bignerdranch.android.animalgallery.AnimalPageFragment"
+        android:label="AnimalPageFragment" >
+        <argument
+            android:name="animalPageUri"
+            app:argType="android.net.Uri" />
+    </fragment>
+</navigation>

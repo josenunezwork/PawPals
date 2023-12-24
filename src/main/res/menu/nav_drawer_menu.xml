@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/menu_item_location"
+        android:title="@string/location"
+        app:actionViewClass="android.widget.SearchView"
+        />
+    <item
+        android:id="@+id/menu_item_distance"
+        android:title="@string/distance"
+        app:actionViewClass="android.widget.SearchView"
+        />
+   <item
+        android:id="@+id/menu_item_dropdown_animal_type"
+        android:title=""
+        app:actionViewClass="android.widget.Spinner"
+        />
+   <item
+       android:id="@+id/menu_item_dropdown_animal_breed"
+       android:title=""
+       app:actionViewClass="android.widget.Spinner"
+       />
+
+    <item
+        android:id="@+id/menu_item_dropdown_animal_count"
+        android:title="@string/number_to_display"
+        app:actionViewClass="android.widget.Spinner"
+        />
+
+
+
+
+</menu>

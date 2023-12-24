@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PawPals</string>
+    <string name="animal_name">Animal Name</string>
+    <string name="animal_info">Animal info</string>
+    <string name="location">ZIP Code</string>
+    <string name="distance">Distance (Miles)</string>
+    <string name="search">Search</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="number_to_display">Display Amount</string>
+</resources>
